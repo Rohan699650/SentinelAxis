@@ -42,12 +42,6 @@ If both credentials match, the lock is released; otherwise, an alert is triggere
 The circuit connects the **RFID module**, **LCD**, **keypad**, **relay**, and **buzzer** to the Arduino’s digital I/O pins.  
 A logical sequence handles input validation and actuation of the door relay.
 
-> 💡 You can include your circuit diagram here once uploaded as `circuit_diagram.png`:
-> 
-> ```markdown
-> ![Circuit Diagram](./circuit_diagram.png)
-> ```
-
 ---
 
 ## 🧠 Workflow
@@ -59,17 +53,7 @@ A logical sequence handles input validation and actuation of the door relay.
 
 ---
 
-## 🧾 Code
 
-Main logic written in **Embedded C (Arduino IDE)**.  
-File: `sentinel_axis.ino`
-
-Key functional blocks:
-- `setup()` initializes modules.  
-- `loop()` handles scanning, password checking, and feedback control.  
-- Functions for LCD output, RFID reading, and relay actuation.
-
----
 
 ## 📸 Demo
 
